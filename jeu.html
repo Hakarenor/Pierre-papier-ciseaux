@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pierre-Feuille-Ciseaux</title>
+    <link rel="stylesheet" href="jeu.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pierre-Feuille-Ciseaux</h1>
+        
+        <div class="score-board">
+            <div class="score">
+                <span id="user-score">0</span>
+                <span>Toi</span>
+            </div>
+            <div class="score">
+                <span id="comp-score">0</span>
+                <span>Ordinateur</span>
+            </div>
+        </div>
+
+        <div class="choices">
+            <button id="rock" class="choice">✊</button>
+            <button id="paper" class="choice">✋</button>
+            <button id="scissors" class="choice">✌️</button>
+        </div>
+
+        <p id="result-message">Choisis ton coup pour jouer !</p>
+    </div>
+
+    <script src="jeu.js"></script>
+
+</body>
+</html>
